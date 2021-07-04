@@ -1,9 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
 
+import { App } from './modules/App';
+
 render(
-  <p>
-    Home Page
-  </p>,
+  <App>
+    Hello Hydria :)
+  </App>,
   document.getElementById('root')
 );

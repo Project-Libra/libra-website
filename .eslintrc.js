@@ -14,6 +14,7 @@ module.exports = {
     '@typescript-eslint/lines-between-class-members': 'off',
     // General
     'operator-linebreak': ['error', 'after'],
+    'no-underscore-dangle': 'off',
     'linebreak-style': 'off',
     'comma-dangle': 'off',
     'arrow-body-style': 'warn',
